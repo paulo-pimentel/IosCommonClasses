@@ -41,11 +41,11 @@
     }
     [req setTimeoutInterval:TIME_OUT_INTERVAL];
 
-#if DEBUG_NET
+//#if DEBUG_NET
     //if(urlStr != nil){
     //    LOG(urlStr);
     //}
-#endif
+//#endif
     
     m_connection = [[NSURLConnection alloc] initWithRequest:req delegate:self];
     
@@ -83,14 +83,14 @@
     }
     [req setTimeoutInterval:TIME_OUT_INTERVAL];
    
-#if DEBUG_NET
+//#if DEBUG_NET
     //if(urlStr != nil){
     //    LOG(urlStr);
     //}
     //if(postData != nil){
     //    LOG([[NSString alloc] initWithData:postData encoding:NSUTF8StringEncoding]);
     //}
-#endif
+//#endif
     
     m_connection = [[NSURLConnection alloc] initWithRequest:req delegate:self];
     
@@ -153,11 +153,11 @@
 // ------------------------------------------------------------------------------------------------
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
-#if DEBUG_NET
+//#if DEBUG_NET
     //if(m_data != nil){
     //    LOG([[NSString alloc] initWithData:m_data encoding:NSUTF8StringEncoding]);
     //}
-#endif
+//#endif
     
     [[self delegate] netConnectionResult:m_data tag:m_tag];
     
