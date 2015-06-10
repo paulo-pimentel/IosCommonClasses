@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 // Defines.
+// Time Out Interval.
 #define TIME_OUT_INTERVAL   30.0
 
 // Delegates.
