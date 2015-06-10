@@ -10,6 +10,7 @@
 
 // Defines.
 // Time Out Interval.
+// ms.
 #define TIME_OUT_INTERVAL   30.0
 
 // Delegates.
