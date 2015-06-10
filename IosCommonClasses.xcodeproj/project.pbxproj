@@ -14,6 +14,7 @@
 		3D76F4671B27FBF90070E527 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D76F4661B27FBF90070E527 /* Images.xcassets */; };
 		3D76F46A1B27FBF90070E527 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D76F4681B27FBF90070E527 /* LaunchScreen.xib */; };
 		3D76F4761B27FBF90070E527 /* IosCommonClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76F4751B27FBF90070E527 /* IosCommonClassesTests.m */; };
+		3D76F4841B2804E00070E527 /* NetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76F4831B2804E00070E527 /* NetConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3D76F46F1B27FBF90070E527 /* IosCommonClassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosCommonClassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D76F4741B27FBF90070E527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D76F4751B27FBF90070E527 /* IosCommonClassesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosCommonClassesTests.m; sourceTree = "<group>"; };
+		3D76F4821B2804E00070E527 /* NetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetConnection.h; path = CommonClasses/NetConnection.h; sourceTree = SOURCE_ROOT; };
+		3D76F4831B2804E00070E527 /* NetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetConnection.m; path = CommonClasses/NetConnection.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		3D76F4581B27FBF90070E527 /* IosCommonClasses */ = {
 			isa = PBXGroup;
 			children = (
+				3D76F4811B2804C60070E527 /* CommonClasses */,
 				3D76F45D1B27FBF90070E527 /* AppDelegate.h */,
 				3D76F45E1B27FBF90070E527 /* AppDelegate.m */,
 				3D76F4601B27FBF90070E527 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				3D76F4741B27FBF90070E527 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D76F4811B2804C60070E527 /* CommonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3D76F4821B2804E00070E527 /* NetConnection.h */,
+				3D76F4831B2804E00070E527 /* NetConnection.m */,
+			);
+			name = CommonClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D76F4621B27FBF90070E527 /* ViewController.m in Sources */,
+				3D76F4841B2804E00070E527 /* NetConnection.m in Sources */,
 				3D76F45F1B27FBF90070E527 /* AppDelegate.m in Sources */,
 				3D76F45C1B27FBF90070E527 /* main.m in Sources */,
 			);
