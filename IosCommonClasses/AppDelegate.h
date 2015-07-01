@@ -11,6 +11,7 @@
 // AppDelegate Class.
 // Comment 1.
 // Comment 2.
+// Feature 1.
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
