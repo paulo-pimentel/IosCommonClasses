@@ -14,6 +14,7 @@
 // Feature 1.
 // Develop New Version.
 // Ver.2.0.0
+// Feature 2.
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
